@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-	$.post('http://ferrero.x10host.com/index.php', {
+	$.post('http://ferrero.x10host.com/get.php', {
 		'type': 0
 	}, function(response) {
 		console.log(reponse);
