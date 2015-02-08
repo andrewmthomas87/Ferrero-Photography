@@ -7,7 +7,7 @@ $(document).ready(function() {
 		var data = JSON.parse(data);
 		console.log(data);
 		for (var name in data) {
-			$('body').append('<h1>' + name + '</h1>');
+			$('body').append('<h3>' + name + '</h3>');
 			$('body').append('<p>' + data[name] + '</p>');
 		}
 	});
